@@ -220,6 +220,46 @@ html {
   height: 22px;
 }
 
+.button{
+  border: 1px solid currentColor;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  inline-size: 100%;
+  block-size: 34px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.button:active{
+  background-color: #545050;
+}
+
+.button:focus-visible{
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.search-form__submit-button{
+  padding: 6px 74px;
+  margin-top: 20px;
+  text-align: center;
+  align-self: flex-end;
+  width: 100%;
+}
+
+
+
 h1,
 h2,
 h3,
