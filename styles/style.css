@@ -50,7 +50,6 @@ ol {
     gap: 30px;
     margin-top: 40px;
     grid-template-areas: 'result details';
-    position: absolute;
     width: 1140px;
     left: calc(50% - 1140px / 2);
     top: calc(50% - 534px / 2);
@@ -211,7 +210,6 @@ ol {
     line-height: 16.2px;
     font-weight: normal;
     margin-top: 6px;
-    letter-spacing: 0;
 }
 
 .visually-hidden {
